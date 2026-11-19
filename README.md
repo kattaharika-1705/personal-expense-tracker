@@ -42,6 +42,28 @@ The Personal Expense Tracker is built using FastAPI, React, and MySQL. It allows
 - Download Excel reports
 - Generate PDF reports
 
+## Application Screenshots
+
+Explore the different modules of the Personal Expense Tracker application.
+
+### 1. Dashboard
+![Dashboard](screenshots/dashboard/dashboard.png)
+
+### 2. Transaction Management
+![Transactions](screenshots/transactions/transactions.png)
+
+### 3. Category Management
+![Categories](screenshots/categories/categories.png)
+
+### 4. Budget Management
+![Budgets](screenshots/budgets/budgets.png)
+
+### 5. Analytics
+![Analytics](screenshots/analytics/analytics.png)
+
+### 6. Financial Reports
+![Reports](screenshots/reports/reports.png)
+
 ## Technology Stack
 
 | Component | Technologies |
@@ -85,6 +107,14 @@ personal-expense-tracker/
 │   ├── package.json
 │   └── vite.config.js
 │
+├── screenshots/
+│   ├── analytics/
+│   ├── budgets/
+│   ├── categories/
+│   ├── dashboard/
+│   ├── reports/
+│   └── transactions/
+│
 ├── .gitignore
 └── README.md
 ```
@@ -95,9 +125,6 @@ personal-expense-tracker/
 
 ```bash
 git clone https://github.com/kattaharika-1705/personal-expense-tracker.git
-```
-
-```bash
 cd personal-expense-tracker
 ```
 
@@ -143,17 +170,9 @@ From the `backend` directory:
 uvicorn app.main:app --reload
 ```
 
-Backend URL:
+Backend URL: http://127.0.0.1:8000
 
-```text
-http://127.0.0.1:8000
-```
-
-API documentation:
-
-```text
-http://127.0.0.1:8000/docs
-```
+API documentation: http://127.0.0.1:8000/docs
 
 ### 5. Frontend Setup
 
@@ -181,11 +200,7 @@ Start the frontend:
 npm run dev
 ```
 
-Frontend URL:
-
-```text
-http://localhost:5173
-```
+Frontend URL: http://localhost:5173
 
 ## Security
 
